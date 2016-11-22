@@ -1,0 +1,100 @@
+/* HEADER */
+
+.logo-header {
+	width: 100%;
+	margin-top: 75px;
+	margin-bottom: 20px;
+	border: solid 2px #000000;
+}
+.logo-header img {
+	max-width: 20%;
+	height: auto;
+	display: inline-block;
+}
+
+.logo-header h1 {
+	display: inline-block;
+}
+
+/* HEADER SLUT */
+
+
+/* NAV BAR */
+
+ul.nav {
+	list-style-type: none;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+}
+
+ul.nav li {
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: #555555;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+ul.nav li a {
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px 20px;
+	text-decoration: none;
+}
+
+ul.nav li a:hover {
+	background-color: #000000;
+}
+
+ul.nav li.icon {
+	display: none;
+}
+
+.active {
+	background-color: #123456;
+}
+
+/* NAV BAR SLUT */
+
+
+/* BODY */
+
+.content-indhold {
+	border: solid 2px #000000;
+	overflow: hidden;
+	height: 700px;
+}
+
+.indhold-box {
+	border: solid 2px #000000;
+	display: inline-block;
+	float: left;
+	height: 100%;
+	overflow: auto;
+}
+
+.login-box {
+	border: solid 2px #000000;
+	display: inline-block;
+	float: right;
+	height: 100%;
+	overflow: auto;
+}
+
+/* BODY SLUT */
+
+
+/* FOOTER */
+
+.footer-kontakt {
+	border: solid 2px #000000;
+	text-align: center;
+	background-color: #555555;
+	color: #ffffff;
+	margin-top: 20px;
+}
+
+/* FOOTER SLUT*/

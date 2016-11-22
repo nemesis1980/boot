@@ -1,0 +1,32 @@
+@media screen and (max-width:680px) {
+
+  ul.nav li:not(:first-child) {
+    display: none;
+  }
+
+  ul.nav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+  ul.nav.responsive {
+    position: fixed;
+    top: 0;
+  }
+
+  ul.nav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  ul.nav.responsive li {
+    float: none;
+    display: inline;
+  }
+  
+  ul.nav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
